@@ -1,0 +1,11 @@
+pandas
+numpy
+ta
+tensorflow
+keras
+scikit-learn
+xgboost
+MetaTrader5
+optuna
+matplotlib
+telegram-send
