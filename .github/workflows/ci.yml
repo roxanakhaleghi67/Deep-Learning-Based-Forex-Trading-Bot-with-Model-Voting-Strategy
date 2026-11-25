@@ -1,0 +1,20 @@
+name: CI
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Lint (syntax and undefined names)
+        run: |
+          pip install --quiet ruff
+          ruff check --select E9,F63,F7,F82 .
+      - name: Compile
+        run: python -m compileall -q .
+      - name: Evaluate the sample results
+        run: python reports/evaluate_results.py
