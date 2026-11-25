@@ -1,5 +1,7 @@
 # Polaris AI Trading Bot (CNN-BiGRU + Attention)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17-FF6F00)
+
 ## ENGLISH
 This AI-based trading system predicts price movements in the Forex market using a deep neural network with Conv1D, BiGRU, and Multi-Head Attention. It selects the top 3 performing models based on ret/DD and uses majority voting for signal generation. Developed by **Roxana Khaleghi**.
 
