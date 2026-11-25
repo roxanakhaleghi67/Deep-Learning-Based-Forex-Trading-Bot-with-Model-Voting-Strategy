@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="900" height="420" fill="white"/>
+<line x1="40" y1="159.9" x2="860" y2="159.9" stroke="#999" stroke-dasharray="4"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2" points="40.0,342.6 88.2,376.7 136.5,294.5 184.7,380.0 232.9,327.3 281.2,288.5 329.4,240.9 377.6,252.7 425.9,222.0 474.1,317.6 522.4,294.4 570.6,293.1 618.8,311.7 667.1,157.9 715.3,132.6 763.5,199.1 811.8,133.9 860.0,40.0"/>
+<text x="40" y="24" font-family="sans-serif" font-size="14">Cumulative strategy return (model voting)</text>
+</svg>

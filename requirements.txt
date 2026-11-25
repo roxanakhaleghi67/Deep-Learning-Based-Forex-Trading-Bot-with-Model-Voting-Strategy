@@ -1,11 +1,13 @@
-pandas
-numpy
-ta
-tensorflow
-keras
-scikit-learn
-xgboost
-MetaTrader5
-optuna
-matplotlib
-telegram-send
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+xgboost==2.1.1
+matplotlib==3.9.2
+optuna==4.1.0
+ta==0.11.0
+tensorflow==2.17.0
+keras==3.6.0
+telegram-send==0.39.0
+
+# Windows-only, needed only for live MetaTrader5 data:
+# MetaTrader5==5.0.4874
